@@ -28,7 +28,7 @@ class App extends Component {
           <Christmas christmas={this.state.christmas}></Christmas>
         </div>
         <div className={"imgDiv"}>
-          <img className={"image"} src="tree.png" alt="Nasty christmas tree"/>
+          <img className={"image"} src="giphy.gif" alt="Nasty christmas tree"/>
         </div>
       </div>
 
