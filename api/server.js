@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, '../my-app/out')));
 app.get('/api/christmas', (req, res) => {
   console.log('merry called!')
   res.json({
-    isItChristmasYet: false
+    isItChristmasYet: true
   });
 });
 
