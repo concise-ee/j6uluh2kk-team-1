@@ -8,7 +8,7 @@ TLDR:
 3. Every push will do a redeploy
 4. You don't have to use this template, but it's a quickstart to just get something running.
 
-try local dev, then try if depl
+try local dev, then try if deploy (test)
 
 ## Local dev
 
