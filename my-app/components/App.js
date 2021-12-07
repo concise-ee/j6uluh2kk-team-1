@@ -14,18 +14,26 @@ class App extends Component {
     let christmas = await getChristmas()
     console.log(christmas);
     this.setState({christmas: christmas})
+    const play = require('audio-play');
+    const load = require('audio-loader');
+
+    load('jingle-bells.mp3').then(play);
   }
 
   render() {
 
     return (
       <div className="App">
+        <meta http-equiv="refresh" content="10"/>
         <Header></Header>
         <div className="row mrgnbtm">
           <Christmas christmas={this.state.christmas}></Christmas>
         </div>
         <div className={"imgDiv"}>
           <img className={"image"} src="tree3.png" alt="Nasty christmas tree"/>
+        </div>
+        <div className={"image"}>
+          <img src="john.gif"/>
         </div>
       </div>
     );
