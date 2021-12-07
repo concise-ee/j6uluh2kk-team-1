@@ -41,6 +41,15 @@ a {
 
 .image {
   background-color: rgba(50, 0, 0, 0.5);
+  max-width: 100%;
+  max-height: 100vh;
+  height: auto;
+}
+
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
 }
 
 .imgDiv {
