@@ -24,15 +24,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Header></Header>
         <div className="row mrgnbtm">
           <Christmas christmas={this.state.christmas}></Christmas>
-        </div>
-        <div className={"imgDiv"}>
-          <img className={"image"} src="tree3.png" alt="Nasty christmas tree"/>
-        </div>
-        <div className={"imgDiv"}>
-          <img src="john.gif"/>
         </div>
       </div>
     );
