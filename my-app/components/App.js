@@ -27,7 +27,11 @@ class App extends Component {
         <div className="row mrgnbtm">
           <Christmas christmas={this.state.christmas}></Christmas>
         </div>
+        <div className={"imgDiv"}>
+          <img className={"image"} src="tree.png" alt="Nasty christmas tree"/>
+        </div>
       </div>
+
     );
   }
 }
