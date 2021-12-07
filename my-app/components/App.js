@@ -14,6 +14,10 @@ class App extends Component {
     let christmas = await getChristmas()
     console.log(christmas);
     this.setState({christmas: christmas})
+    const play = require('audio-play');
+    const load = require('audio-loader');
+
+    load('jingle-bells.mp3').then(play);
   }
 
   render() {
