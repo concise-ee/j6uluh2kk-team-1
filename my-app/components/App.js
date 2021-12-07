@@ -24,7 +24,6 @@ class App extends Component {
 
     return (
       <div className="App">
-        <meta http-equiv="refresh" content="10"/>
         <Header></Header>
         <div className="row mrgnbtm">
           <Christmas christmas={this.state.christmas}></Christmas>
