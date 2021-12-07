@@ -32,7 +32,7 @@ class App extends Component {
         <div className={"imgDiv"}>
           <img className={"image"} src="tree3.png" alt="Nasty christmas tree"/>
         </div>
-        <div className={"image"}>
+        <div className={"imgDiv"}>
           <img src="john.gif"/>
         </div>
       </div>
