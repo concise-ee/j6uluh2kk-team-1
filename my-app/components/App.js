@@ -24,12 +24,16 @@ class App extends Component {
 
     return (
       <div className="App">
+        <meta http-equiv="refresh" content="10"/>
         <Header></Header>
         <div className="row mrgnbtm">
           <Christmas christmas={this.state.christmas}></Christmas>
         </div>
         <div className={"image"}>
           <img src="tree.jpeg" alt="Nasty christmas tree"/>
+        </div>
+        <div className={"image"}>
+          <img src="john.gif"/>
         </div>
       </div>
     );
